@@ -7,6 +7,8 @@ font-family:'ITCLubalinGraphW01-Demi'
 font-family:'Proxima N W15 Cd Reg';
 */
 
+
+
 	.center-block { display: block; margin-left: auto; margin-right: auto; text-align: center;}
 
 
@@ -49,7 +51,7 @@ font-family:'Proxima N W15 Cd Reg';
 	.navcontainer {position: absolute; bottom: 0px; left:225px;}
 	.navcontainer, .navcontainer a {font-family: "ITCLubalinGraphW01-Demi"; font-size: 18px; color:#fff; }	
 		.nav {padding: 4px 0 5px 0; border-left: 1px solid #0b94cd; border-right: 1px solid #023577; text-decoration: none!important;}
-		.nav a {max-width: 190px; text-align: center;}
+		
 		.navcontainer .nav:first-child {border-left:0px;}
 		.navcontainer .nav:last-child {border-right:0px;}
 
@@ -96,75 +98,3 @@ font-family:'Proxima N W15 Cd Reg';
 
 
 
-/*
-
-@font-face{
-font-family:"ITCLubalinGraphW01-Demi";
-src:url("../fonts/cc99e9f2-4765-47e8-8e9e-f8afa7f45aa2.eot?#iefix");
-src:url("../fonts/cc99e9f2-4765-47e8-8e9e-f8afa7f45aa2.eot?#iefix") format("eot"),url("../fonts/59400685-dc94-4bda-8b78-cceef07d0471.woff") format("woff"),url("../fonts/d8199ae6-f15d-4aad-b2c6-4fb6aa728384.ttf") format("truetype"),url("../fonts/33772b07-3175-4e1c-9aca-009627307668.svg#33772b07-3175-4e1c-9aca-009627307668") format("svg");
-}
-@font-face{
-font-family:"Proxima N W15 Thin Reg";
-src:url("../fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix");
-src:url("../fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix") format("eot"),url("../fonts/cb1061dc-f26a-43a0-8dd8-bb0541873c3d.woff") format("woff"),url("../fonts/a2e9a37c-6342-4985-8053-a9b44d5d3524.ttf") format("truetype"),url("../fonts/602df5ad-7d3a-48e7-8f6a-867f5d482c77.svg#602df5ad-7d3a-48e7-8f6a-867f5d482c77") format("svg");
-}
-@font-face{
-font-family:"Proxima N W15 Light";
-src:url("../fonts/53f72e41-ffd4-47d4-b8bf-b1ab3cada2e5.eot?#iefix");
-src:url("../fonts/53f72e41-ffd4-47d4-b8bf-b1ab3cada2e5.eot?#iefix") format("eot"),url("../fonts/fb5639f2-f57b-487d-9610-3dc50820ab27.woff") format("woff"),url("../fonts/2eafe9b7-5a21-49c0-84ca-54c54f899019.ttf") format("truetype"),url("../fonts/0a2fe21c-cfdd-4f40-9dca-782e95c1fa90.svg#0a2fe21c-cfdd-4f40-9dca-782e95c1fa90") format("svg");
-}
-@font-face{
-font-family:"Proxima N W15 Cd Thin";
-src:url("../fonts/0114e02f-4411-4905-a7bf-adaafec1db30.eot?#iefix");
-src:url("../fonts/0114e02f-4411-4905-a7bf-adaafec1db30.eot?#iefix") format("eot"),url("../fonts/661efffc-7896-40d3-ae69-c2bd315d3008.woff") format("woff"),url("../fonts/3cb957d2-48c3-46dc-abea-49e2f9fef54a.ttf") format("truetype"),url("../fonts/f127966a-18d7-455c-bce3-f07e49ff3d1f.svg#f127966a-18d7-455c-bce3-f07e49ff3d1f") format("svg");
-}
-@font-face{
-font-family:"Proxima N W15 Cd Light";
-src:url("../fonts/71d27047-aee7-4513-aa39-93acec4189af.eot?#iefix");
-src:url("../fonts/71d27047-aee7-4513-aa39-93acec4189af.eot?#iefix") format("eot"),url("../fonts/69d0a741-16e2-4ba2-9f9d-4fbe3d972acf.woff") format("woff"),url("../fonts/c650156e-a72f-4031-8687-7e3519940f30.ttf") format("truetype"),url("../fonts/d1116fb4-2dec-4fad-b64c-4ed24e4d3db0.svg#d1116fb4-2dec-4fad-b64c-4ed24e4d3db0") format("svg");
-}
-@font-face{
-font-family:"Proxima N W15 Cd Reg";
-src:url("../fonts/efe26376-690f-410e-821e-2afbbd9197b1.eot?#iefix");
-src:url("../fonts/efe26376-690f-410e-821e-2afbbd9197b1.eot?#iefix") format("eot"),url("../fonts/2044e492-1e2b-4ad8-bad4-e6821ae512ca.woff") format("woff"),url("../fonts/4e3b9710-9799-480c-acef-ab59690e8b19.ttf") format("truetype"),url("../fonts/608a9bce-a8dd-49e1-bca6-1555697128b2.svg#608a9bce-a8dd-49e1-bca6-1555697128b2") format("svg");
-}
-*/
-
-
-/*	.maintext {color:#bf1847;  margin-right: 35px;  text-shadow:0px 1px 1px rgba(55, 55, 55, 0.2);}
-	.mainimage { vertical-align: top; }
-	.mainimage > img {display:block;}
-	.mainimage, .maintext { display: inline-block; padding-top: 35px;}
-
-	.jumbotron {background-color: #f7f7f7; border-bottom: 1px solid #266ead; padding-top: 75px; overflow: hidden; }
-
-	.jumbotron p { margin-top: 20px; color: grey;}
-
-	.custom-mid-section {background-color: #f7faff; 
-	background: -moz-linear-gradient(left, #f7faff, #d8e4f2); 
-	background: -webkit-linear-gradient(left, #f7faff, #d8e4f2);
-	background: -o-linear-gradient(left, #f7faff, #d8e4f2);
-	background: -ms-linear-gradient(left, #f7faff, #d8e4f2);
-	background: linear-gradient(top right, #f7faff, #d8e4f2); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7faff', endColorstr='#d8e4f2',GradientType=1 );overflow: hidden;  }
-	
-	.col-md-12, .col-sm-6, .col-md-6 {padding-left: 0; padding-right:0; }
-	
-	.col-md-12 {padding-bottom: 20px; padding-top: 20px; overflow: hidden;}
-
-	.jumbotron > .container {margin:0 auto; position: relative;}
-
-	.inline {display:inline-block; }
-	
-	.panel-body { width: 90%}
-	
-	table#alert-name { width: 90%; margin: 20px 0 30px 0;}
-	table #alert-name, #alert-name td { border: 1px solid #bf1847; padding: 10px; font-size: 18px;}
-	 #alert-name tr:first-child td { font-weight: bold;    border-bottom: 2px solid #bf1847; } 
-	table#alert-name .first-col { width: 30%;  }
-	
-	.sectiontitle {color:#004b8d; padding-top: 20px;}
-	
-
-
-	.pusher  {padding:5px 0 20px;  }*/
