@@ -7,7 +7,18 @@ font-family:'ITCLubalinGraphW01-Demi'
 font-family:'Proxima N W15 Cd Reg';
 */
 
-
+header {display: block; overflow: hidden;
+		box-shadow: 0 1px 3px 0 rgba(184, 184, 184, 0.5);
+		background: #127cb2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #127cb2 0%, #0470a9 12%, #0367a0 36%, #01548d 71%, #004c8c 91%, #004683 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#127cb2), color-stop(12%,#0470a9), color-stop(36%,#0367a0), color-stop(71%,#01548d), color-stop(91%,#004c8c), color-stop(100%,#004683)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #127cb2 0%,#0470a9 12%,#0367a0 36%,#01548d 71%,#004c8c 91%,#004683 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #127cb2 0%,#0470a9 12%,#0367a0 36%,#01548d 71%,#004c8c 91%,#004683 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #127cb2 0%,#0470a9 12%,#0367a0 36%,#01548d 71%,#004c8c 91%,#004683 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #127cb2 0%,#0470a9 12%,#0367a0 36%,#01548d 71%,#004c8c 91%,#004683 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#127cb2', endColorstr='#004683',GradientType=0 ); /* IE6-9 */
+	
+		}
 
 	.center-block { display: block; margin-left: auto; margin-right: auto; text-align: center;}
 
@@ -50,15 +61,16 @@ font-family:'Proxima N W15 Cd Reg';
 
 	.navcontainer {position: absolute; bottom: 0px; left:225px;}
 	.navcontainer, .navcontainer a {font-family: "ITCLubalinGraphW01-Demi"; font-size: 18px; color:#fff; }	
-		.nav {padding: 4px 0 5px 0; border-left: 1px solid #0b94cd; border-right: 1px solid #023577; text-decoration: none!important;}
-		
+		.nav {padding: 4px 0 5px 0; padding: 10px; border-bottom: 1px solid #fff; border-left: 1px solid #0b94cd; border-right: 1px solid #023577; text-decoration: none!important;}
+		.nav:first-child {border-left: none;}
+		.nav:last-child {border-right: none;}
 		.navcontainer .nav:first-child {border-left:0px;}
 		.navcontainer .nav:last-child {border-right:0px;}
 
 
 
 
-	footer {color: rgb(255, 255, 255); padding-top: 20px;
+ footer {color: rgb(255, 255, 255); padding-top: 20px;
 	background: #127cb2; /* Old browsers */
 	background: -moz-linear-gradient(top,  #127cb2 0%, #0470a9 12%, #0367a0 36%, #01548d 71%, #004c8c 91%, #004683 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#127cb2), color-stop(12%,#0470a9), color-stop(36%,#0367a0), color-stop(71%,#01548d), color-stop(91%,#004c8c), color-stop(100%,#004683)); /* Chrome,Safari4+ */
